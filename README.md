@@ -1,2 +1,0 @@
-# RecipeReactApp
-Created with CodeSandbox
