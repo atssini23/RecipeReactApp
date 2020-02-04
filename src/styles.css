@@ -1,6 +1,15 @@
 .App {
   min-height: 100vh;
   background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+  font-family: MS Sans Serif;
+}
+.head {
+  padding: 30px;
+  text-align: center;
+  background: #2ec59f;
+
+  color: white;
+  font-size: 30px;
 }
 
 .search-form {
@@ -17,7 +26,7 @@
 }
 
 .search-button {
-  background: lightcoral;
+  background: rgb(103, 199, 243);
   border: none;
   padding: 10px 20px;
   color: white;
@@ -26,5 +35,6 @@
 .recipes {
   display: flex;
   justify-content: space-around;
+  align-content: space-between;
   flex-wrap: wrap;
 }
